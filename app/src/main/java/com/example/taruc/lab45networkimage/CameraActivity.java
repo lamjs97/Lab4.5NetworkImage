@@ -181,6 +181,7 @@ public class CameraActivity extends AppCompatActivity {
 
                 textViewFilePath.setText(uri.toString());
 
+
                 image = getStringImage(bitmap);
                 ImageView imageView = (ImageView) findViewById(R.id.imageViewPreview);
                 imageView.setImageBitmap(bitmap);
